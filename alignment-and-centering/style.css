@@ -33,10 +33,21 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   display: flex;
   border :10px solid green;
   min-height: 100vh;
-  align-content: center; 
-  flex-wrap: wrap;
+  align-items: flex-end; 
 }
 
 .box{
   width:33.33%;
+}
+
+.box2{
+  padding-bottom:200px;
+
+}
+.box6{
+padding-bottom: 0;
+}
+.box9{
+  padding-bottom: 50px;
+  align-self: stretch ;
 }
